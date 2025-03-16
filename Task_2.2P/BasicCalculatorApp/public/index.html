@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Basic Calculator</h1>
+    <form action="/calculate" method="GET">
+      <label for="num1">Enter first number:</label>
+      <input type="text" id="num1" name="num1" required />
+      <br />
+      <br />
+      <label for="num2">Enter second number:</label>
+      <input type="text" id="num2" name="num2" required />
+      <br />
+      <br />
+      <label for="operation">Select mathematical operation:</label>
+      <select id="operation" name="operation" required>
+        <option value="addition">Addition</option>
+        <option value="subtraction">Subtraction</option>
+        <option value="multiplication">Multiplication</option>
+        <option value="division">Division</option>
+      </select>
+      <br />
+      <br />
+      <button type="submit">Begin the Calculation</button>
+    </form>
+  </body>
+</html>
